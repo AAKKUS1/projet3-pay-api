@@ -1,0 +1,5 @@
+:root{
+    --form-text-area-normal: rgb(154, 168, 180);
+    --form-text-area-active:  rgba(54, 83, 107, 1);
+    --form-text-area-active-wrong: rgb(255, 127, 127);
+}

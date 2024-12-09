@@ -1,0 +1,36 @@
+
+
+/* Public Sans */   @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Big+Shoulders+Display:wght@100..900&family=Chango&family=Doppio+One&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jua&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Manrope:wght@200..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Outfit:wght@100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+/* DM Serif Display */  @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Big+Shoulders+Display:wght@100..900&family=Chango&family=DM+Serif+Display:ital@0;1&family=Doppio+One&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jua&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Manrope:wght@200..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Outfit:wght@100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+
+:root{
+    --font-family-Psans: Public Sans;
+    --font-family-DM:  DM Serif Display;
+
+    --color-primary-dark-pink: #BA4270;
+    --color-secondary-Link-Water-White:#FBFCFE ;
+
+    --color-secondary-San-Juan-Blue:#36536B;
+    --color-secondary-Light-San-Juan-Blue:#6C8294;
+    --color-secondary-Mirrage-Blue:#1B262F;
+    --color-secondary-Charm-Pink:#DA6D97;
+
+    --typography-heading-h1-large: 72px;
+    --typography-heading-h1-small: 56px;
+
+    --typography-heading-h2-large: 48px;
+    --typography-heading-h2-large: 32px;
+
+    --typography-heading-h3-big: 18px;
+
+    --typography-heading-h4-large: 24px;
+
+    --typography-body: 15px;
+
+    font-family: var(--font-family);
+}
+
+
+body{
+    font-family: var(--font-family-Psans);
+}

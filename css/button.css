@@ -1,0 +1,30 @@
+:root{
+
+    --buttons-primary-light-normal: rgba(186, 66, 112, 1);
+    --buttons-primary-light-hover: rgba(218, 109, 151, 1);
+    --buttons-primary-light-disabled: rgb(220, 160, 183);
+    
+    --buttons-secondary-light-normal: black;
+    --buttons-secondary-light-normal-border: white;
+
+    --buttons-secondary-light-hover: white;
+    --buttons-secondary-light-hover-text: black;
+
+
+    --buttons-secondary-light-disabled: black ;
+    --buttons-secondary-light-disabled-text: rgb(138, 145, 150);
+    --buttons-secondary-light-disabled-border: rgb(138, 145, 150);
+
+
+    --buttons-secondary-dark-normal: white;
+    --buttons-secondary-dark-normal-border: rgba(54, 83, 107, 1);
+    --buttons-secondary-dark-normal-text:  rgba(54, 83, 107, 1);
+
+
+    --buttons-secondary-dark-normal: rgba(54, 83, 107, 1);
+    --buttons-secondary-dark-normal-text: white;
+
+    --buttons-secondary-dark-normal: white;
+    --buttons-secondary-dark-normal-border: rgb(154 168 180);
+    --buttons-secondary-dark-normal-text: rgb(154 168 180);
+}
