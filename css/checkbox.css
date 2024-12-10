@@ -1,5 +1,5 @@
-:root{
-    --checkbox-state-normal:rgb(205, 212, 218);
-    --checkbox-state-active:rgba(186, 66, 112, 1);
-    --checkbox-state-disabled:rgb(245, 246, 247);
+:root {
+	--checkbox-state-normal: rgb(205, 212, 218);
+	--checkbox-state-active: rgba(186, 66, 112, 1);
+	--checkbox-state-disabled: rgb(245, 246, 247);
 }
