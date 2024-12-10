@@ -24,3 +24,22 @@
 	--buttons-secondary-dark-normal-border: rgb(154 168 180);
 	--buttons-secondary-dark-normal-text: rgb(154 168 180);
 }
+.headerpart button {
+	display: none;
+}
+@media screen and (min-width:728px){
+	.headerpart button {
+		display: block;
+	}
+}
+button{
+	background-color: var(--buttons-primary-light-normal);
+    color: var(--color-secondary-Link-Water-White);
+	border-radius: 25px;
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+}
+.schedule:hover{
+    background-color: var(--buttons-primary-light-hover);
+}

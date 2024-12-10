@@ -19,48 +19,21 @@
 	--typography-heading-h1-small: 56px;
 
 	--typography-heading-h2-regular: 48px;
-    --typography-heading-h2-regular-line:56px;
+	--typography-heading-h2-regular-line: 56px;
 
 	--typography-heading-h2-large: 32px;
 
 	--typography-heading-h3-big: 32px;
-    --typography-heading-h3-big-line:40px;
+	--typography-heading-h3-big-line: 40px;
 
-    --typography-heading-h3-small: 18px;
-    --typography-heading-h3-small-line:25px;
-
+	--typography-heading-h3-small: 18px;
+	--typography-heading-h3-small-line: 25px;
 
 	--typography-heading-h4-regular: 24px;
-    --typography-heading-h4-regular-line: 32px;
-
+	--typography-heading-h4-regular-line: 32px;
 
 	--typography-body: 15px;
-    --typography-body-line: 28px;
-
-    --buttons-primary-light-normal: rgba(186, 66, 112, 1);
-	--buttons-primary-light-hover: rgba(218, 109, 151, 1);
-	--buttons-primary-light-disabled: rgb(220, 160, 183);
-
-	--buttons-secondary-light-normal: black;
-	--buttons-secondary-light-normal-border: white;
-
-	--buttons-secondary-light-hover: white;
-	--buttons-secondary-light-hover-text: black;
-
-	--buttons-secondary-light-disabled: black;
-	--buttons-secondary-light-disabled-text: rgb(138, 145, 150);
-	--buttons-secondary-light-disabled-border: rgb(138, 145, 150);
-
-	--buttons-secondary-dark-normal: white;
-	--buttons-secondary-dark-normal-border: rgba(54, 83, 107, 1);
-	--buttons-secondary-dark-normal-text: rgba(54, 83, 107, 1);
-
-	--buttons-secondary-dark-normal: rgba(54, 83, 107, 1);
-	--buttons-secondary-dark-normal-text: white;
-
-	--buttons-secondary-dark-normal: white;
-	--buttons-secondary-dark-normal-border: rgb(154 168 180);
-	--buttons-secondary-dark-normal-text: rgb(154 168 180);
+	--typography-body-line: 28px;
 
 	font-family: var(--font-family-DM);
 }
@@ -74,22 +47,12 @@ body {
 nav {
 	display: flex;
 	justify-content: space-between;
-	padding-top: 30px;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding: 20px 30px;
 }
 .headerpart {
 	display: flex;
 }
-.headerpart button {
-	display: none;
-    border-radius: 25px;
-    padding: 10px 20px;
-    border: none;
-}
-.headerpart button:hover{
-    background-color: var(--buttons-primary-light-hover);
-}
+
 .headerpart .burger-menu {
 	cursor: pointer;
 }
@@ -99,48 +62,70 @@ nav {
 	gap: 20px;
 	margin-left: 25px;
 	display: none;
-    font-size: var(--);
+	font-size: var(--);
 }
-.background {
-	background-color: #ccd6de;
-	height: 50%;
+
+.phone {
+	width: 60%;
+	margin-left: 20px;
+}
+.hero {
 	width: 100%;
-	border-radius: 0% 0% 50% 50%;
-	position: absolute;
-	top: -100px;
-	z-index: -1;
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
 }
-.phone{
-    width: 35%;
+aside h1{
+	font-size: var(--typography-heading-h1-large);
+	font-family: var(--font-family-DM);
+	color: var(--color-secondary-San-Juan-Blue);
+	width: 50%;
+	font-weight: 400;
 }
-.hero{
-    width: 100%;
-    display: flex;
-    justify-content: center;
+aside{
+	flex-direction: column;
+	width: 70%;
+	justify-content: left;
+	align-items: center;
+	display: none;
 }
+
 @media screen and (min-width: 768px) {
-    nav{
-        justify-content: space-around;
-    }
-    .headerpart{
-        align-items: center;
-    }
+	nav {
+		justify-content: space-between;
+	}
+	.headerpart {
+		align-items: center;
+	}
 	.burger-menu {
 		display: none;
 	}
 	.headerpart ul {
-        display: flex;
-        flex-direction: row;
+		display: flex;
+		flex-direction: row;
 	}
-    .headerpart a{
-        color: black;
-        text-decoration: none;
-        color: var(--color-secondary-Light-San-Juan-Blue);
-        font-weight: 600;
-    }
-	.headerpart button {
-		display: block;
-        background-color: var(--color-primary-dark-pink);
-        color: var(--color-secondary-Link-Water-White);
+	.headerpart a {
+		color: black;
+		text-decoration: none;
+		color: var(--color-secondary-Light-San-Juan-Blue);
+		font-weight: 600;
+	}
+	.phone {
+		margin-left: 120px;
+		width: 50%;
+	}
+}
+@media screen and (min-width: 1440px) {
+	nav {
+		padding: 20px 200px;
+	}
+	.phone {
+		width: 25%;
+		position: absolute;
+		top: 125px;
+		right: 200px;
+	}
+	aside{
+		display: flex;
 	}
 }

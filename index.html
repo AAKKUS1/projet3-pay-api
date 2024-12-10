@@ -6,11 +6,13 @@
 		<link rel="stylesheet" href="css/normalize.css" />
 		<link rel="stylesheet" href="css/reset.css" />
 		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="css/button.css" />
 		<link rel="stylesheet" href="css/home.css" />
+        <link rel="stylesheet" href="css/background.css"/>
 		<title>payapi</title>
 	</head>
 	<body>
-        <div class="background"></div>
+		<div class="background"></div>
 		<header>
 			<nav>
 				<section class="headerpart">
@@ -23,16 +25,28 @@
 				</section>
 				<section class="headerpart">
 					<a href="pages/contact.html">
-						<button>Schedule a Demo</button>
+						<button class="schedule">Schedule a Demo</button>
 					</a>
-					<img class="burger-menu" src="assets/logos/burger.svg" alt="menu burger" />
+					<img
+						class="burger-menu"
+						src="assets/logos/burger.svg"
+						alt="menu burger"
+					/>
 				</section>
 			</nav>
 		</header>
 		<main>
 			<div class="hero">
-                <img class="phone" src="assets/phone-images/phone.svg" alt="phone">
-            </div>
+				<img class="phone" src="assets/phone-images/phone.svg" alt="phone" />
+			</div>
+            <aside>
+                <h1>Start building with our APIs for absolutely free.</h1>
+                <label>
+                  <input placeholder="Enter email adress">
+                 </label>
+                 <button class="schedule">Schedule a Demo</button>
+                    <p>Have any questions? <a>Contact Us</a></p>
+            </aside>
 		</main>
 	</body>
 </html>

@@ -1,0 +1,17 @@
+.background {
+	background-color: #ccd6de;
+	height: 40%;
+	width: 100%;
+	border-radius: 10% 10% 43% 43% / 0% 0% 20% 20%;
+	position: absolute;
+	top: -100px;
+	z-index: -1;
+}
+@media screen and (min-width: 1440px) {
+	.background {
+		border-radius: 28% 72% 59% 41% / 43% 0% 100% 57%;
+		width: 50%;
+		top: 0px;
+		right: 0px;
+	}
+}
