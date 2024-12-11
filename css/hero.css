@@ -1,0 +1,42 @@
+.phone {
+	width: 60%;
+	margin-left: 20px;
+}
+.hero {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+.small-form-top h1 {
+	font-size: var(--typography-heading-h1-large);
+	font-family: var(--font-family-DM);
+	color: var(--color-secondary-San-Juan-Blue);
+	width:65%;
+	font-weight: 400;
+}
+.small-form-top {
+	flex-direction: column;
+	width: 55%;
+	justify-content: left;
+	align-items: center;
+	display: none;
+}
+.enter-email{
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	width: 60%;
+}
+.enter-email input{
+	width: 69%;
+	padding: 10px 25px;
+	border-radius: 24px;
+	box-shadow: 10px 10px 25px  #36536B40;
+	border: none;
+}
+input:focus{
+	outline:none;
+	color: var(--color-secondary-San-Juan-Blue);
+	font-weight: 700;
+}

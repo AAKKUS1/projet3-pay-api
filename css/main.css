@@ -64,9 +64,11 @@ nav {
 	display: none;
 	font-size: var(--);
 }
-
+li:hover {
+	color: var(--color-secondary-Mirrage-Blue);
+}
 .phone {
-	width: 60%;
+	width: 70%;
 	margin-left: 20px;
 }
 .hero {
@@ -75,24 +77,47 @@ nav {
 	justify-content: center;
 	margin-top: 30px;
 }
-aside h1{
-	font-size: var(--typography-heading-h1-large);
+
+.small-form-top h1 {
+	font-size: 32px;
 	font-family: var(--font-family-DM);
 	color: var(--color-secondary-San-Juan-Blue);
-	width: 50%;
-	font-weight: 400;
+	width: 100%;
+	font-weight: 400;	
+	text-align: center;
 }
-aside{
+.enter-email{
+	display: flex;
+	justify-content: center;
 	flex-direction: column;
-	width: 70%;
-	justify-content: left;
 	align-items: center;
-	display: none;
+}
+.small-form-top input {
+	padding: 10px 25px;
+	border-radius: 24px;
+	box-shadow: 10px 10px 25px #36536b40;
+	border: none;
+	width: 90%;
+}
+input:focus {
+	outline: none;
+	color: var(--color-secondary-San-Juan-Blue);
+	font-weight: 700;
+}
+form p {
+	color: var(--color-secondary-Light-San-Juan-Blue);
+	margin-top: 5px;
+}
+form a {
+	color: var(--color-secondary-San-Juan-Blue);
+	font-weight: 700;
+	text-decoration: none;
 }
 
 @media screen and (min-width: 768px) {
 	nav {
 		justify-content: space-between;
+		width: 90%;
 	}
 	.headerpart {
 		align-items: center;
@@ -111,13 +136,42 @@ aside{
 		font-weight: 600;
 	}
 	.phone {
-		margin-left: 120px;
+		margin-left: 60px;
 		width: 50%;
+	}
+
+	.small-form-top h1 {
+		font-size: var(--typography-heading-h1-small);
+		font-family: var(--font-family-DM);
+		color: var(--color-secondary-San-Juan-Blue);
+		width: 80%;
+		font-weight: 400;
+		text-align: center;
+	}
+	.enter-email {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 90%;
+	}
+	.enter-email input {
+		width: 65%;
+	}
+	form p{
+		text-align: center;
+	}
+
+	.small-form-top {
+		flex-direction: column;
+		width: 100%;
+		display: flex;
+		align-items: center;
 	}
 }
 @media screen and (min-width: 1440px) {
 	nav {
 		padding: 20px 200px;
+		max-width: 1100px;
 	}
 	.phone {
 		width: 25%;
@@ -125,7 +179,37 @@ aside{
 		top: 125px;
 		right: 200px;
 	}
-	aside{
+	.small-form-top {
 		display: flex;
+		width: 50%;
 	}
+
+	.small-form-top h1 {
+		font-size: var(--typography-heading-h1-large);
+		font-family: var(--font-family-DM);
+		color: var(--color-secondary-San-Juan-Blue);
+		width: 60%;
+		font-weight: 400;
+		text-align: left;
+	}
+	.enter-email {
+		display: flex;
+		flex-direction: column;
+		align-items: start;
+		width: 60%;
+	}
+	.enter-email input {
+		width: 62%;
+	}
+	form p{
+		text-align: left;
+	}
+
+	.small-form-top {
+		flex-direction: column;
+		width: 55%;
+		justify-content: left;
+		align-items: center;
+	}
+	
 }
