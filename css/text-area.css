@@ -1,5 +1,6 @@
-:root {
-	--form-text-area-normal: rgb(154, 168, 180);
-	--form-text-area-active: rgba(54, 83, 107, 1);
-	--form-text-area-active-wrong: rgb(255, 127, 127);
+.txt-area{
+	color: var(	--color-secondary-Light-San-Juan-Blue);
+}
+.txt-area:active{
+	color: var(--color-secondary-San-Juan-Blue);
 }

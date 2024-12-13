@@ -1,0 +1,171 @@
+
+.phone {
+	width: 70%;
+	margin-left: 20px;
+}
+.hero {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+.small-form-top h1 {
+	margin-bottom: 50px;
+	text-align: center;
+}
+.enter-email {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.small-form-top input {
+	padding: 10px 25px;
+	border-radius: 24px;
+	box-shadow: 10px 10px 25px #36536b40;
+	border: none;
+	width: 90%;
+}
+input:focus {
+	outline: none;
+	color: var(--color-secondary-San-Juan-Blue);
+	font-weight: 700;
+}
+form p {
+	color: var(--color-secondary-Light-San-Juan-Blue);
+	margin-top: 5px;
+}
+form a {
+	color: var(--color-secondary-San-Juan-Blue);
+	font-weight: 700;
+	text-decoration: none;
+}
+.partner-part {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: var(--color-secondary-Mirrage-Blue);
+	color: #6c8294;
+	margin-top: 10px;
+	padding-bottom: 60px;
+	gap: 30px;
+}
+.partner-logos {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 40px;
+	margin-top: 100px;
+}
+.partner-part h3 {
+	font-size: var(--typography-heading-h3-big);
+	font-family: var(--font-family-DM);
+	font-weight: var(--typography-heading-h3-big-line);
+	color: var(--color-secondary-Link-Water-White);
+}
+.partner-part p {
+	color: var(--color-secondary-Light-San-Juan-Blue);
+	font-size: var(--typography-body);
+	line-height: var(--typography-body-line);
+	text-align: center;
+	font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+	nav {
+		justify-content: space-between;
+		width: 90%;
+	}
+	.headerpart {
+		align-items: center;
+	}
+	.burger-menu {
+		display: none;
+	}
+	.headerpart ul {
+		display: flex;
+		flex-direction: row;
+	}
+	.headerpart a {
+		color: black;
+		text-decoration: none;
+		color: var(--color-secondary-Light-San-Juan-Blue);
+		font-weight: 600;
+	}
+	.phone {
+		margin-left: 60px;
+		width: 50%;
+	}
+
+	.small-form-top h1 {
+		font-size: var(--typography-heading-h2-regular);
+		font-family: var(--font-family-DM);
+		color: var(--color-secondary-San-Juan-Blue);
+		width: 80%;
+		font-weight: 400;
+		text-align: center;
+	}
+	.enter-email {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 90%;
+	}
+	.enter-email input {
+		width: 65%;
+	}
+	form p {
+		text-align: center;
+	}
+
+	.small-form-top {
+		flex-direction: column;
+		width: 100%;
+		display: flex;
+		align-items: center;
+	}
+}
+@media screen and (min-width: 1440px) {
+	nav {
+		padding: 20px 200px;
+	}
+
+	.phone {
+		width: 25%;
+		position: absolute;
+		top: 125px;
+		right: 200px;
+	}
+	.small-form-top {
+		display: flex;
+		width: 50%;
+	}
+
+	.small-form-top h1 {
+		font-size: var(--typography-heading-h1-large);
+		font-family: var(--font-family-DM);
+		color: var(--color-secondary-San-Juan-Blue);
+		width: 60%;
+		font-weight: 400;
+		text-align: left;
+	}
+	.enter-email {
+		display: flex;
+		flex-direction: column;
+		align-items: start;
+		width: 60%;
+	}
+	.enter-email input {
+		width: 62%;
+	}
+	form p {
+		text-align: left;
+	}
+
+	.small-form-top {
+		flex-direction: column;
+		width: 55%;
+		justify-content: left;
+		align-items: center;
+	}
+}

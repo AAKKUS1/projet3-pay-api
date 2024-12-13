@@ -1,5 +1,9 @@
-:root {
-	--form-text-field-normal: rgb(154, 168, 180);
-	--form-text-field-active: rgba(54, 83, 107, 1);
-	--form-text-field-active-wrong: rgb(255, 127, 127);
+.txt-field-normal{
+	color: var(	--color-secondary-Light-San-Juan-Blue);
 }
+.txt-field:active{
+	color: var(--color-secondary-San-Juan-Blue);
+}
+/* .txt-field:active{
+
+} */

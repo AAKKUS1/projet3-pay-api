@@ -1,8 +1,4 @@
 :root {
-	--buttons-primary-light-normal: rgba(186, 66, 112, 1);
-	--buttons-primary-light-hover: rgba(218, 109, 151, 1);
-	--buttons-primary-light-disabled: rgb(220, 160, 183);
-
 	--buttons-secondary-light-normal: black;
 	--buttons-secondary-light-normal-border: white;
 
@@ -24,40 +20,80 @@
 	--buttons-secondary-dark-normal-border: rgb(154 168 180);
 	--buttons-secondary-dark-normal-text: rgb(154 168 180);
 }
-.headerpart button {
-	display: none;
-}
-@media screen and (min-width:768px){
-	.headerpart button {
-		display: block;
-	}
-	.enter-email button{
-		top: -44px;
-		right: -150px;}
-}
-button{
-	background-color: var(--buttons-primary-light-normal);
-    color: var(--color-secondary-Link-Water-White);
+
+.btn-primary-light {
+	background-color: var(--color-primary-dark-pink);
+	color: var(--color-secondary-Link-Water-White);
 	border-radius: 25px;
 	padding: 10px 20px;
 	border: none;
 	cursor: pointer;
+	font-weight: bold;
+	padding: 10px 20px;
 }
-.enter-email button{
-	position: relative;
+
+.btn-primary-light:hover {
+	background-color: var(--color-secondary-Charm-Pink);
+}
+
+.btn-primary-light:disabled {
+	background-color: var(--buttons-primary-light-disabled);
+}
+.btn-secondary-light{
+	background-color: var(--color-secondary-Mirrage-Blue);
+	border:solid thin var(--color-secondary-Link-Water-White);
+}
+
+.btn-secondary-light:hover{
+	background-color: var(--color-secondary-Link-Water-White);
+	color: var(--color-secondary-Mirrage-Blue);
+}
+.btn-secondary-light:disabled{
+	border: var(--color-secondary-Light-San-Juan-Blue);
+	color: var(--color-secondary-Light-San-Juan-Blue);
+}
+
+.btn-secondary-dark{
+	border: solid thin var(--color-secondary-San-Juan-Blue);
+	color: var(--color-secondary-San-Juan-Blue);
+}
+.btn-secondary-dark:hover{
+	color: var(--color-secondary-Link-Water-White);
+	background-color: var(--color-secondary-San-Juan-Blue);
+}
+.btn-secondary-dark:disabled{
+	color: var(--color-secondary-Light-San-Juan-Blue);
+	border: var(--color-secondary-Light-San-Juan-Blue);
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+	.headerpart button {
+		display: block;
 	}
-.enter-email button{
-	padding: 10px 80px;
-}
-@media screen and (min-width:1440px){
-	.enter-email button{
+	.enter-email button {
 		top: -44px;
-	right: -270px;
+		right: -150px;
 	}
-	.enter-email button{
+}
+.button-fixer {
+	width: 100%;
+}
+
+.enter-email button {
+	position: relative;
+}
+.enter-email button {
+	padding: 10px;
+}
+@media screen and (min-width: 1440px) {
+	.enter-email button {
+		top: -44px;
+		right: -270px;
+	}
+	.enter-email button {
 		padding: 10px 20px;
 	}
-}
-.schedule:hover{
-    background-color: var(--buttons-primary-light-hover);
 }

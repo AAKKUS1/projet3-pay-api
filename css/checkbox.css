@@ -1,5 +1,9 @@
-:root {
-	--checkbox-state-normal: rgb(205, 212, 218);
-	--checkbox-state-active: rgba(186, 66, 112, 1);
-	--checkbox-state-disabled: rgb(245, 246, 247);
+.checkbox{
+	background-color:var(--color-secondary-Light-San-Juan-Blue) ;
+}
+.checkbox:active{
+	background-color: var(--color-primary-dark-pink);
+}
+.checkbox:disabled{
+	background-color: 	--color-secondary-Light-San-Juan-Blue
 }
