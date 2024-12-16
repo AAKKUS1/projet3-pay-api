@@ -16,9 +16,9 @@
 	--color-secondary-Charm-Pink: #da6d97;
 
 	--typography-heading-h1-large: 72px;
-	--typography-heading-h1-large-line:72px;
+	--typography-heading-h1-large-line: 72px;
 	--typography-heading-h1-small: 56px;
-	--typography-heading-h1-small-line:56px;
+	--typography-heading-h1-small-line: 56px;
 	--typography-heading-h2-regular: 48px;
 	--typography-heading-h2-regular-line: 56px;
 
@@ -38,31 +38,45 @@
 
 	font-family: var(--font-family-DM);
 }
-.h1-large{
+.h1-large {
 	font-size: var(--typography-heading-h1-large);
 	line-height: var(--typography-heading-h1-large-line);
+	color: var(--color-secondary-San-Juan-Blue);
+	font-family: var(--font-family-DM);
+
 }
-.h1-small{
+.h1-small {
 	font-size: var(--typography-heading-h1-small);
 	line-height: var(--typography-heading-h1-small-line);
+	color: var(--color-secondary-San-Juan-Blue);
+	font-family: var(--font-family-DM);
+
 }
-.h2-regular{
+.h2-regular {
 	font-size: var(--typography-heading-h2-regular);
 	line-height: var(--typography-heading-h2-regular-line);
+	color: var(--color-secondary-San-Juan-Blue);
+	font-family: var(--font-family-DM);
 }
-.h3-large{
+.h3-large {
 	font-size: var(--typography-heading-h3-big);
 	line-height: var(--typography-heading-h3-big-line);
+	color: var(--color-secondary-San-Juan-Blue);
+
 }
-.h3-small{
+.h3-small {
 	font-size: var(--typography-heading-h3-small);
 	line-height: var(--typography-heading-h3-small-line);
+	color: var(--color-secondary-San-Juan-Blue);
+
 }
-.h4-regular{
+.h4-regular {
 	font-size: var(--typography-heading-h4-regular);
 	line-height: var(--typography-heading-h4-regular-line);
+	color: var(--color-secondary-San-Juan-Blue);
+
 }
-.body-text{
+.body-text {
 	font-family: var(--font-family-Psans);
 	font-size: var(--typography-body);
 	line-height: var(--typography-body-line);
@@ -97,6 +111,4 @@ nav {
 
 li:hover a {
 	color: var(--color-secondary-Mirrage-Blue);
-}
-.h1-large {
 }

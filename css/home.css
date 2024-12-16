@@ -1,4 +1,3 @@
-
 .phone {
 	width: 70%;
 	margin-left: 20px;
@@ -20,7 +19,7 @@
 	flex-direction: column;
 	align-items: center;
 }
-.small-form-top input {
+.enter-email input {
 	padding: 10px 25px;
 	border-radius: 24px;
 	box-shadow: 10px 10px 25px #36536b40;
@@ -48,8 +47,10 @@ form a {
 	background-color: var(--color-secondary-Mirrage-Blue);
 	color: #6c8294;
 	margin-top: 10px;
-	padding-bottom: 60px;
+	padding-bottom: 40px;
 	gap: 30px;
+	height: 100vh;
+	justify-content: space-around;
 }
 .partner-logos {
 	display: grid;
@@ -63,18 +64,121 @@ form a {
 	font-weight: var(--typography-heading-h3-big-line);
 	color: var(--color-secondary-Link-Water-White);
 }
-.partner-part p {
-	color: var(--color-secondary-Light-San-Juan-Blue);
-	font-size: var(--typography-body);
-	line-height: var(--typography-body-line);
+.position-organizer .body-text {
 	text-align: center;
-	font-weight: 400;
 }
-
+nav .btn-primary-light {
+	display: none;
+}
+.enter-email .btn-primary-light {
+	width: 90%;
+	position: absolute;
+	left: 20px;
+}
+.button-fixer {
+	margin-bottom: 50px;
+}
+.small-form-top {
+	margin-bottom: 100px;
+}
+.position-organizer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+.features {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: var(--color-secondary-Light-San-Juan-Blue);
+	margin-bottom: 20px;
+}
+.feat-desc h3 {
+	font-family: var(--font-family-DM);
+}
+.feat-desc {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.ex-image {
+	display: flex;
+	justify-content: center;
+	width: 50%;
+}
+.ex-image-spe {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.ex-images img {
+	width: 20%;
+}
+.benefits {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+}
+#special-slot {
+	border-radius: 50px;
+	padding: 35px 30px;
+}
+.image-slot {
+	background-color: var(--color-secondary-San-Juan-Blue);
+	border-radius: 50px;
+	padding: 27px 30px;
+	margin-top: 30px;
+}
+.benefits-desc {
+	text-align: center;
+	width: 85%;
+}
+.benefits-desc .body-text {
+	color: var(--color-secondary-Light-San-Juan-Blue);
+}
+.demo{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.demo .enter-email{
+	width: 100%;
+}
+.demo h2{
+	font-family: var(--font-family-DM);
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
 @media screen and (min-width: 768px) {
+	.benefits-section {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-row: 1fr;
+	}
+	.benefits {
+		display: flex;
+		align-items: center;
+	}
+	.benefits-desc {
+		width: 80%;
+		text-align: center;
+	}
+	.button-fixer {
+		margin-bottom: 0px;
+	}
 	nav {
 		justify-content: space-between;
-		width: 90%;
+		width: 100%;
+	}
+	nav .btn-primary-light {
+		display: block;
 	}
 	.headerpart {
 		align-items: center;
@@ -98,9 +202,7 @@ form a {
 	}
 
 	.small-form-top h1 {
-		font-size: var(--typography-heading-h2-regular);
 		font-family: var(--font-family-DM);
-		color: var(--color-secondary-San-Juan-Blue);
 		width: 80%;
 		font-weight: 400;
 		text-align: center;
@@ -124,6 +226,31 @@ form a {
 		display: flex;
 		align-items: center;
 	}
+	.enter-email .btn-primary-light {
+		position: relative;
+		left: 220px;
+		top: -44px;
+		width: 100%;
+	}
+	.partner-logos {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	.partner-part .body-text {
+		width: 60%;
+	}
+	.position-organizer h3 {
+		font-size: var(--typography-heading-h2-regular);
+	}
+	.feat-desc h3 {
+		font-size: var(--typography-heading-h2-regular);
+		line-height: var(--typography-heading-h2-regular);
+	}
+	.feat-desc {
+		width: 75%;
+	}
+	.partner-part {
+		height: fit-content;
+	}
 }
 @media screen and (min-width: 1440px) {
 	nav {
@@ -131,7 +258,7 @@ form a {
 	}
 
 	.phone {
-		width: 25%;
+		width: 20%;
 		position: absolute;
 		top: 125px;
 		right: 200px;
@@ -139,17 +266,15 @@ form a {
 	.small-form-top {
 		display: flex;
 		width: 50%;
+		margin-top: 100px;
 	}
-
 	.small-form-top h1 {
 		font-size: var(--typography-heading-h1-large);
-		font-family: var(--font-family-DM);
-		color: var(--color-secondary-San-Juan-Blue);
+		line-height: var(--typography-heading-h1-large);
 		width: 60%;
-		font-weight: 400;
 		text-align: left;
 	}
-	.enter-email {
+	.small-form-top .enter-email {
 		display: flex;
 		flex-direction: column;
 		align-items: start;
@@ -168,4 +293,72 @@ form a {
 		justify-content: left;
 		align-items: center;
 	}
+	.partner-part {
+		flex-direction: row-reverse;
+		align-items: center;
+		justify-content: center;
+		padding-top: 100px;
+	}
+	.position-organizer {
+		width: 50%;
+		text-align: left;
+		display: flex;
+		align-items: flex-start;
+		gap: 20px;
+	}
+	.partner-logos {
+		margin-top: 0px;
+	}
+	.position-organizer .body-text,
+	.position-organizer h3 {
+		text-align: left;
+	}
+	.partner-part .body-text {
+		width: 50%;
+	}
+	.feat-desc {
+		width: 50%;
+	}
+	.features {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+	.ex-image-spe {
+		width: 50%;
+	}
+	.feat-desc {
+		text-align: left;
+		width: 23%;
+	}
+	#feature-inverted-image {
+		display: flex;
+		flex-direction: row-reverse;
+	}
+	.ex-image img {
+		width: 30%;
+	}
+	#features-text-direction {
+		text-align: right;
+	}
+	.benefits-desc {
+		width: 75%;
+	}
+	.benefits-section {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr;
+	}
+	.demo{
+		display: grid;
+		grid-template-columns: 1fr 4fr;
+	}
+	.demo .enter-email{
+		margin-top: 70px;
+		width: 40%;
+	}
+	.demo h2{
+		font-size: var(--typography-heading-h2-regular);
+	}
+	
 }

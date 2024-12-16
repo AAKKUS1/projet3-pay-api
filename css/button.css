@@ -20,16 +20,17 @@
 	--buttons-secondary-dark-normal-border: rgb(154 168 180);
 	--buttons-secondary-dark-normal-text: rgb(154 168 180);
 }
-
-.btn-primary-light {
-	background-color: var(--color-primary-dark-pink);
-	color: var(--color-secondary-Link-Water-White);
+button {
 	border-radius: 25px;
 	padding: 10px 20px;
 	border: none;
 	cursor: pointer;
 	font-weight: bold;
 	padding: 10px 20px;
+}
+.btn-primary-light {
+	background-color: var(--color-primary-dark-pink);
+	color: var(--color-secondary-Link-Water-White);
 }
 
 .btn-primary-light:hover {
@@ -39,61 +40,30 @@
 .btn-primary-light:disabled {
 	background-color: var(--buttons-primary-light-disabled);
 }
-.btn-secondary-light{
+.btn-secondary-light {
 	background-color: var(--color-secondary-Mirrage-Blue);
-	border:solid thin var(--color-secondary-Link-Water-White);
+	border: solid thin var(--color-secondary-Link-Water-White);
+	color: var(--color-secondary-Link-Water-White);
 }
 
-.btn-secondary-light:hover{
+.btn-secondary-light:hover {
 	background-color: var(--color-secondary-Link-Water-White);
 	color: var(--color-secondary-Mirrage-Blue);
 }
-.btn-secondary-light:disabled{
+.btn-secondary-light:disabled {
 	border: var(--color-secondary-Light-San-Juan-Blue);
 	color: var(--color-secondary-Light-San-Juan-Blue);
 }
 
-.btn-secondary-dark{
+.btn-secondary-dark {
 	border: solid thin var(--color-secondary-San-Juan-Blue);
 	color: var(--color-secondary-San-Juan-Blue);
 }
-.btn-secondary-dark:hover{
+.btn-secondary-dark:hover {
 	color: var(--color-secondary-Link-Water-White);
 	background-color: var(--color-secondary-San-Juan-Blue);
 }
-.btn-secondary-dark:disabled{
+.btn-secondary-dark:disabled {
 	color: var(--color-secondary-Light-San-Juan-Blue);
 	border: var(--color-secondary-Light-San-Juan-Blue);
-}
-
-
-
-
-@media screen and (min-width: 768px) {
-	.headerpart button {
-		display: block;
-	}
-	.enter-email button {
-		top: -44px;
-		right: -150px;
-	}
-}
-.button-fixer {
-	width: 100%;
-}
-
-.enter-email button {
-	position: relative;
-}
-.enter-email button {
-	padding: 10px;
-}
-@media screen and (min-width: 1440px) {
-	.enter-email button {
-		top: -44px;
-		right: -270px;
-	}
-	.enter-email button {
-		padding: 10px 20px;
-	}
 }
