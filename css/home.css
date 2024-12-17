@@ -13,37 +13,11 @@
 	margin-bottom: 50px;
 	text-align: center;
 }
-.enter-email {
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	align-items: center;
-}
-.enter-email input {
-	padding: 10px 25px;
-	border-radius: 24px;
-	box-shadow: 10px 10px 25px #36536b40;
-	border: none;
-	width: 90%;
-}
-input:focus {
-	outline: none;
-	color: var(--color-secondary-San-Juan-Blue);
-	font-weight: 700;
-}
-form p {
-	color: var(--color-secondary-Light-San-Juan-Blue);
-	margin-top: 5px;
-}
-form a {
-	color: var(--color-secondary-San-Juan-Blue);
-	font-weight: 700;
-	text-decoration: none;
-}
+
+
 .partner-part {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+	display: grid;
+	grid-template-columns: 90%;
 	background-color: var(--color-secondary-Mirrage-Blue);
 	color: #6c8294;
 	margin-top: 10px;
@@ -67,17 +41,9 @@ form a {
 .position-organizer .body-text {
 	text-align: center;
 }
-nav .btn-primary-light {
-	display: none;
-}
-.enter-email .btn-primary-light {
-	width: 90%;
-	position: absolute;
-	left: 20px;
-}
-.button-fixer {
-	margin-bottom: 50px;
-}
+
+
+
 .small-form-top {
 	margin-bottom: 100px;
 }
@@ -142,20 +108,7 @@ nav .btn-primary-light {
 .benefits-desc .body-text {
 	color: var(--color-secondary-Light-San-Juan-Blue);
 }
-.demo{
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	align-items: center;
-}
-.demo .enter-email{
-	width: 100%;
-}
-.demo h2{
-	font-family: var(--font-family-DM);
-	margin-top: 40px;
-	margin-bottom: 20px;
-}
+
 @media screen and (min-width: 768px) {
 	.benefits-section {
 		display: grid;
@@ -170,32 +123,7 @@ nav .btn-primary-light {
 		width: 80%;
 		text-align: center;
 	}
-	.button-fixer {
-		margin-bottom: 0px;
-	}
-	nav {
-		justify-content: space-between;
-		width: 100%;
-	}
-	nav .btn-primary-light {
-		display: block;
-	}
-	.headerpart {
-		align-items: center;
-	}
-	.burger-menu {
-		display: none;
-	}
-	.headerpart ul {
-		display: flex;
-		flex-direction: row;
-	}
-	.headerpart a {
-		color: black;
-		text-decoration: none;
-		color: var(--color-secondary-Light-San-Juan-Blue);
-		font-weight: 600;
-	}
+
 	.phone {
 		margin-left: 60px;
 		width: 50%;
@@ -207,15 +135,7 @@ nav .btn-primary-light {
 		font-weight: 400;
 		text-align: center;
 	}
-	.enter-email {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		width: 90%;
-	}
-	.enter-email input {
-		width: 65%;
-	}
+	
 	form p {
 		text-align: center;
 	}
@@ -226,12 +146,7 @@ nav .btn-primary-light {
 		display: flex;
 		align-items: center;
 	}
-	.enter-email .btn-primary-light {
-		position: relative;
-		left: 220px;
-		top: -44px;
-		width: 100%;
-	}
+	
 	.partner-logos {
 		grid-template-columns: 1fr 1fr 1fr;
 	}
@@ -253,9 +168,7 @@ nav .btn-primary-light {
 	}
 }
 @media screen and (min-width: 1440px) {
-	nav {
-		padding: 20px 200px;
-	}
+	
 
 	.phone {
 		width: 20%;
@@ -280,9 +193,7 @@ nav .btn-primary-light {
 		align-items: start;
 		width: 60%;
 	}
-	.enter-email input {
-		width: 62%;
-	}
+
 	form p {
 		text-align: left;
 	}
@@ -294,6 +205,7 @@ nav .btn-primary-light {
 		align-items: center;
 	}
 	.partner-part {
+		display: flex;
 		flex-direction: row-reverse;
 		align-items: center;
 		justify-content: center;
@@ -348,17 +260,6 @@ nav .btn-primary-light {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
 		grid-template-rows: 1fr;
-	}
-	.demo{
-		display: grid;
-		grid-template-columns: 1fr 4fr;
-	}
-	.demo .enter-email{
-		margin-top: 70px;
-		width: 40%;
-	}
-	.demo h2{
-		font-size: var(--typography-heading-h2-regular);
 	}
 	
 }
