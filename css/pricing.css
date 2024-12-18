@@ -1,0 +1,121 @@
+.p-title .h2-regular {
+	font-family: var(--font-family-DM);
+	font-weight: 400;
+    text-align: center;
+    margin-bottom: 35px;
+    width: fit-content;
+}
+.p-title{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 40%;
+}
+.plan .h4-regular {
+	font-family: var(--font-family-DM);
+	color: var(--color-primary-dark-pink);
+}
+.plan .body-text {
+	font-weight: 500;
+	color: var(--color-secondary-Light-San-Juan-Blue);
+    text-align: center;
+    width: 105%;
+}
+.h3-small{
+    color: var(	--color-secondary-Mirrage-Blue);
+}
+.options .h1-large {
+	font-weight: 400;
+    margin-top: 15px;
+}
+.options ul {
+	list-style-type: none;
+    padding: 30px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 10px;
+    width: fit-content;
+    font-weight: 500;
+}
+li{
+    display: flex;
+    gap: 10px;
+}
+
+.options ul span {
+	color: var(--color-secondary-Light-San-Juan-Blue);
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 100%;
+    margin-left: 23px;
+}
+.options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.plan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    border-bottom:solid 1px var(--color-secondary-Light-San-Juan-Blue);
+    padding-bottom: 25px ;
+    width: 90%;
+}
+.list{    
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 1px var(--color-secondary-Light-San-Juan-Blue);
+margin-bottom: 30px;
+}
+.options button{
+    margin-bottom: 30px;
+}
+
+@media screen and (min-width:768px) {
+    .organizer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .p-title{
+        margin-top: 20%;
+    }
+}
+@media screen and (min-width:1440px) {
+    .p-title{
+        display: flex;
+        justify-content: start;
+        margin-top: 10%;
+    }
+    .p-title .h2-regular{
+        width: 18%;
+        margin-top: 0%;
+    }
+    .options{
+        width: 70%;
+        justify-self: center;
+    }
+    .plan .body-text{
+        text-align: left;
+    }
+    .plan{
+        display: flex;
+        align-items: start;
+    }
+    .list{
+        display: flex;
+        justify-content: left;
+    }
+    .options {
+        align-items: start;
+    }
+}

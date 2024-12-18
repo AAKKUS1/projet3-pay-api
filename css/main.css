@@ -12,7 +12,7 @@
 
 	--color-secondary-San-Juan-Blue: #36536b;
 	--color-secondary-Light-San-Juan-Blue: #6c8294;
-	--color-secondary-Mirrage-Blue: #1b262f;
+		--color-secondary-Mirrage-Blue: #1b262f;
 	--color-secondary-Charm-Pink: #da6d97;
 
 	--typography-heading-h1-large: 72px;
@@ -22,7 +22,6 @@
 	--typography-heading-h2-regular: 48px;
 	--typography-heading-h2-regular-line: 56px;
 
-	--typography-heading-h2-large: 32px;
 
 	--typography-heading-h3-big: 32px;
 	--typography-heading-h3-big-line: 40px;
@@ -269,9 +268,8 @@ footer ul {
 	}
 	.demo{
 		display: grid;
-		grid-template-columns: 2fr 2fr;
+		grid-template-columns: 3fr 4fr;
 		gap: 25px;
-		padding-right: 10	0px;
 	}
 
 	.demo h2{
