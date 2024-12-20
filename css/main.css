@@ -147,7 +147,12 @@ footer {
 .image-container:hover a {
 	color: var(--color-secondary-Charm-Pink);
 }
-
+.partner-logos {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 40px;
+	margin-top: 100px;
+}
 .footer-first-part {
 	display: flex;
 	flex-direction: column;
@@ -254,6 +259,9 @@ footer ul {
 		top: -44px;
 		width: 100%;
 	}
+	.partner-logos {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
 }
 @media screen and (min-width: 1440px) {
 	nav {
@@ -264,8 +272,9 @@ footer ul {
 	}
 	.demo .enter-email{
 		margin-top: 70px;
-		width: 170%;
+		width: 120%;
 	}
+
 	.demo{
 		display: grid;
 		grid-template-columns: 3fr 4fr;

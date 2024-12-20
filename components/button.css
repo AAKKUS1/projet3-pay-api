@@ -44,6 +44,7 @@ button {
 	background-color: var(--color-secondary-Mirrage-Blue);
 	border: solid thin var(--color-secondary-Link-Water-White);
 	color: var(--color-secondary-Link-Water-White);
+	
 }
 
 .btn-secondary-light:hover {

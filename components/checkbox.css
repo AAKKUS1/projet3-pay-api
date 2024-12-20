@@ -1,5 +1,7 @@
 .checkbox{
-	background-color:var(--color-secondary-Light-San-Juan-Blue) ;
+	accent-color:var(--color-primary-dark-pink);
+	width: 25px;
+	height: 25px;
 }
 .checkbox:active{
 	background-color: var(--color-primary-dark-pink);

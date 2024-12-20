@@ -26,12 +26,7 @@
 	height: 100vh;
 	justify-content: space-around;
 }
-.partner-logos {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	gap: 40px;
-	margin-top: 100px;
-}
+
 .partner-part h3 {
 	font-size: var(--typography-heading-h3-big);
 	font-family: var(--font-family-DM);
@@ -147,9 +142,7 @@
 		align-items: center;
 	}
 	
-	.partner-logos {
-		grid-template-columns: 1fr 1fr 1fr;
-	}
+	
 	.partner-part .body-text {
 		width: 60%;
 	}

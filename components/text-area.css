@@ -1,0 +1,11 @@
+.txt-area{
+	color: var(	--color-secondary-Light-San-Juan-Blue);
+	background-color: transparent;
+	border: none;
+	border-bottom: solid 1px var(--color-secondary-Light-San-Juan-Blue);
+	padding-bottom: 25px;
+	width: 90%;
+}
+.txt-area:active{
+	color: var(--color-secondary-San-Juan-Blue);
+}

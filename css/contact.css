@@ -1,0 +1,92 @@
+.pagetitle{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.h3-large{
+    width: 90%;
+    text-align: center;
+    font-weight: 400;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fields{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+label{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 0px 10px 0px 10px;
+}
+.check{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-left: 20px;
+
+}
+.check button{
+    width: 35%;
+}
+.h4-regular{
+    text-align: center;
+    margin-top: 70px;
+
+}
+.partner-logos{
+    width: 100%;
+    justify-items: center;
+    margin-top: 70px;
+}
+
+@media screen and (min-width:768px){
+	.check p{
+        width: 70%;
+    }
+
+    .field{
+        width: 100%;
+    }
+}
+@media screen and (min-width:1440px){
+    .organizer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .part2{
+        align-self: center;
+    }
+    .demo-alignments{
+        margin-top: 100px;
+    }
+    .demo h2{
+        width: 80%;
+        margin-left: 200px;
+    }
+    .h4-regular{
+        width: 50%;
+        text-align: left;
+        margin-left: 80px;
+    }
+    .h3-large{
+        font-size: var(--typography-heading-h1-large);
+        font-family: var(--font-family-DM);
+        line-height: var(--typography-heading-h1-large);
+        width: 100%;
+        margin-left: 290px;
+
+    }
+}

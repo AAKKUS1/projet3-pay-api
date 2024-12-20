@@ -1,0 +1,11 @@
+.txt-field-normal{
+	color: var(	--color-secondary-Light-San-Juan-Blue);
+	border:none ;
+	border-bottom: solid 1px var(--color-secondary-Light-San-Juan-Blue);
+	background-color: transparent;
+	padding-bottom: 15px;
+	width: 90%;
+}
+.txt-field-normal:active{
+	color: var(--color-secondary-San-Juan-Blue);
+}
